@@ -1,0 +1,14 @@
+---
+# For some reason the RedHat package uses a capital "P" in its name
+pound_pkgs:
+  - Pound
+
+pound_svc_name: pound
+
+pound_cfg_file: /etc/pound.cfg
+
+pound_control_socket: /var/lib/pound/pound.cfg
+
+pound_user: pound
+
+pound_group: pound

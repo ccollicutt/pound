@@ -1,0 +1,13 @@
+---
+pound_pkgs:
+  - pound
+
+pound_svc_name: pound
+
+pound_cfg_file: /etc/pound/pound.cfg
+
+pound_control_socket: /var/run/pound/poundctl.socket
+
+pound_user: www-data
+
+pound_group: www-data

@@ -1,0 +1,5 @@
+---
+
+- name: restart pound
+  service: name={{ pound_svc_name }} state=restarted enabled=yes
+

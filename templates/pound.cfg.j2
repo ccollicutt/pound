@@ -1,0 +1,22 @@
+#{{ ansible_managed }}
+
+User	"{{ pound_user }}"
+Group	"{{ pound_group }}"
+
+LogLevel {{ log_level }}
+
+Control "{{ pound_control_socket }}"
+
+ListenHTTP
+  Address {{ listen_http_address }}
+  Port	{{ listen_http_port }}
+
+  Service
+    BackEnd
+		  {% for server in backend_servers %}
+      Address	{{ server[0] }}
+      Port	{{ server[1] }}
+			{% endfor %} 
+    End
+  End
+End

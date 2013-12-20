@@ -13,7 +13,7 @@ Role Variables
 --------------
 
 The variables that can be passed to this role and a brief description about
-them are as follows. See the NTP configuration documentation for details:
+them are as follows. See the Pound configuration documentation for details:
 
 ```
 pound_svc_name: pound
@@ -58,3 +58,7 @@ Author Information
 
 curtis@serverascode.com
 
+Thanks
+------
+
+This was based on the [NTP module](https://github.com/bennojoy/ntp).

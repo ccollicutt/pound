@@ -1,0 +1,16 @@
+---
+galaxy_info:
+  author: "curtis@serverascode.com"
+  license: BSD
+  min_ansible_version: 1.4
+  platforms:
+   - name: EL
+     versions:
+      - 6
+   - name: Ubuntu
+     versions:
+      - precise
+  categories:
+   - web
+dependencies: []
+
