@@ -19,17 +19,17 @@ them are as follows. See the Pound configuration documentation for details:
 	pound_svc_name: pound
 
 	# What level to log at
-	log_level: 1
+	pound_log_level: 1
 
 	# What ip address should pound listen on?
-	listen_http_address: 127.0.0.1
+	pound_listen_http_address: 127.0.0.1
 
 	# What port should pound listen on?
-	listen_http_port: 80
+	pound_listen_http_port: 80
 
 	# What ip will pound be proxying traffic to?
 	# - add more by adding additional items in the form ['ip', 'port']
-	backend_servers: 
+	pound_backend_servers: 
 	  - [ '127.0.0.1', '8080' ]
 	  - [ '192.168.100.100', '8080']
 
